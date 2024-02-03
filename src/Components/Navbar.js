@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export default function Navbar(props) {
 
@@ -7,8 +7,10 @@ export default function Navbar(props) {
         <div>
             <nav className={`navbar bg-${props.mode}`} data-bs-theme={`${props.mode}`}>
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">TextForm</Link>
-                    <Link className="navbar-brand" to="/about">About</Link>
+                    <a className="navbar-brand" href="#">TextForm</a>
+                    {/* <a className="navbar-brand" href="#">About</a> */}
+                    {/* <Link className="navbar-brand" to="/">TextForm</Link>
+                    <Link className="navbar-brand" to="/about">About</Link> */}
 
 
                     <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'}`}>

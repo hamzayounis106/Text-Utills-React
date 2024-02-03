@@ -3,8 +3,8 @@ import Alert from './Components/Alert';
 import Navbar from './Components/Navbar';
 import TextForm from './Components/TextForm';
 import React, { useState } from 'react'
-import About from './Components/about';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import About from './Components/about';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
@@ -86,11 +86,11 @@ function App() {
   }
   return (
     <>
-      <BrowserRouter>
-        <Navbar mode={mode} tooglemode={tooglemode} modetext={modetext} darkmode={darkmode} lightmode={lightmode} yellowmode={yellowmode} bluemode={bluemode} greenmode={greenmode} />
-        <Alert alert={alert} />
+      {/* <BrowserRouter> */}
+      <Navbar mode={mode} tooglemode={tooglemode} modetext={modetext} darkmode={darkmode} lightmode={lightmode} yellowmode={yellowmode} bluemode={bluemode} greenmode={greenmode} />
+      <Alert alert={alert} />
 
-        {/* <Switch>
+      {/* <Switch>
           <Route path="/about">
             <About />
           </Route>
@@ -100,14 +100,14 @@ function App() {
           </Route>
         </Switch> */}
 
-        <Routes>
-       
-            <Route index element={<TextForm mode={mode} alert={alert} showalert={showalert} />} />
-            <Route exact path="about" element={<About />} />
-           
-         
-        </Routes>
-      </BrowserRouter>
+      {/* <Routes> */}
+
+      {/* <Route index element={<TextForm mode={mode} alert={alert} showalert={showalert} />} />
+          <Route exact path="about" element={<About />} /> */}
+
+      <TextForm />
+      {/* </Routes> */}
+      {/* </BrowserRouter> */}
     </>
   );
 }
