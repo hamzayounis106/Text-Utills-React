@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Text-Utills-React/static/css/main.d46edcfa.css",
+    "main.js": "/Text-Utills-React/static/js/main.44fcc1c5.js",
+    "index.html": "/Text-Utills-React/index.html",
+    "main.d46edcfa.css.map": "/Text-Utills-React/static/css/main.d46edcfa.css.map",
+    "main.44fcc1c5.js.map": "/Text-Utills-React/static/js/main.44fcc1c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d46edcfa.css",
+    "static/js/main.44fcc1c5.js"
+  ]
+}
